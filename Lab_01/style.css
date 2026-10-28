@@ -5,7 +5,7 @@ html {
 
 body {
   height: 100vh;
-  margin: 0;
+  padding: 0 20px
 }
 
 .main-container {
@@ -13,4 +13,66 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.link-1 {
+  color: blueviolet
+}
+
+.link-2 {
+  color: aqua
+}
+
+.link-3 {
+  color: darkmagenta
+}
+
+.imie {
+  color: blueviolet;
+  font-weight: bold;
+
+}
+
+article img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black
+}
+
+.wiersz {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.kwadrat {
+  width: 100px;
+  height: 100px;
+}
+
+.kolor1 {
+  background-color: rgb(155, 106, 97);
+}
+
+.kolor2 {
+  background-color: rgb(165, 146, 41);
+}
+
+.kolor3 {
+  background-color: rgb(104, 164, 131);
+}
+
+.kolor4 {
+  background-color: rgb(0, 0, 0);
+}
+
+.kolor5 {
+  background-color: rgb(130, 163, 190);
 }
